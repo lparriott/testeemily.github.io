@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+/*
+   FINAL WEBSITE PROJECT
+   Custom Coops Layout Fil
+   Filename: layout.css
+*/
+
+/* BODY LAYOUT */
+
+
+html { 
+	background-color: white; 
+	max-height: 100%
+	}
+	
+body {
+	max-height: 50000px;
+	min-height: auto;
+	margin: auto; 
+}	
+	
+	
+	
+.content {
+	max-width: 1080px;
+	margin: auto;
+}
+
+
+/* HEADER */
+
+.head {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0px;
+}
+
+.head li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px;
+}
+
+/* NAVIGATION BAR */
+
+.nav {
+	background-color: white;
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 30px;
+	margin-top: -5px;
+	width: 100%;
+}
+
+.nav li {
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding: 5px;
+}
+
+li {
+	display: inline;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+li a {
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+
+li a:hover {
+	color: tan;
+}
+
+
+/* IMAGES?? */
+
+
+/* Table */
+
+.white{
+	background-color: white;
+}
+
+table, th, td {
+  border: 6px solid;
+  border-collapse: collapse;
+	border-color: white;
+	font-family: Sans-Serif, Avenir;
+	font-size: 25px;
+	letter-spacing: 2px;
+	padding: 15px;
+  text-align: center;
+}
+
+
+/* Form */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: rgb(50,50,50);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(242, 237, 219);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(242, 237, 219);
+  padding: 20px;
+  font-family: "Marion", Serif;
+  letter-spacing: 4px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+.center{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+
+.notextdec2{
+	text-decoration: none;
+}
+
+
+.notextdec{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	padding-right:105px;
+	margin-right:-105px;
+	padding-left:105px;
+	margin-left:-105px;
+	letter-spacing: 4px;
+	font-size: 15px;
+}
+
+.notextdec:hover{
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	letter-spacing: 4px;
+	font-size: 15px;
+}
+
+
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 950px;
+	min-height: 50px;
+	
+}
+
+
+
+/* BODY */
+
+.headline {
+	font-size: 55px;
+	text-align: right;
+	letter-spacing: 10px;
+}
+
+.hpricing {
+	font-size: 55px;
+	text-align: right;
+	letter-spacing: 10px;	
+	margin-right: 50px;	
+}
+
+
+.body-text{
+	background-color: rgb(242, 237, 219)
+	float: left;
+	text-align: right;
+	letter-spacing: 2px;
+	font-size: 20px;
+	display: inline;
+	padding: 20px;
+}
+
+.imageone{
+	display: inline;
+	float: right;
+}
+
+.imagetwo{
+	background-color: rgb(242, 237, 219)
+	display: inline;
+	float: right;
+}
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: white;
+	padding: 35px;
+	margin-top: 150px;
+	font-family:"Avenir", sans-serif;
+	font-weight: bold;
+	color: rgb(50,50,50);
+	font-size: 15px;
+}

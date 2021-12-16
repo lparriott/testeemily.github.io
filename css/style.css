@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*
+   FINAL WEBSITE PROJECT
+   Custom Coops Layout Fil
+   Filename: layout.css
+*/
+
+
+
+/* BODY */
+
+body {
+	background-color: rgb(242, 237, 219);
+	color: rgb(50,50,50);
+	font-family: "Marion", serif;
+	
+}
+
+
+/* NAVIGATION */
+
+nav {
+	font-family:"Avenir", sans-serif;
+	font-weight: bold;
+	color: rgb(50,50,50);
+}
+
